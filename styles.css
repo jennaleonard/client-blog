@@ -19,6 +19,7 @@ h1 {
 h2 {
     text-transform: uppercase;
     font-size: 55px;
+    margin-top: -15px;
 }
 
 h3 {
@@ -44,7 +45,7 @@ header {
 
 .background-img {
     background: url(images/article-header.jpg) no-repeat;
-    height: 400px;
+    height: 500px;
     background-size: 100%, cover;
 }
 
@@ -60,7 +61,7 @@ header {
 }
 
 .article-title {
-    margin: 0 15%;
+    margin: 3% 15%;
 }
 
 .article-title p {
@@ -94,25 +95,41 @@ article {
 
 .article-content {
     width: 70%;
-    margin: 0 auto;
+    margin: 0 auto 5% auto;
     font-size: 20px;
     text-align: justify;
     line-height: 30px;
 }
 
 article img {
-    width: 90%;
+    width: 100%;
     height: auto;
+    display: block;
+    /* margin: 0 auto; */
+
+}
+
+.btn {
+    text-align: center;
+    margin: 0 auto;
+    height: 180px;
+    width: 70%;
+    background: #ff69b444;
 }
 
 a {
     display: inline-block;
-    margin: 20px 20px 30px 20px;
+    margin: 5% 7%;
     padding: 10px;
     background: #FF745C;
     border-radius: 3px;
     text-decoration: none;
     color: #fff;
+    font-size: 1.5em;
+}
+
+a:hover {
+    background: #ff745cd5;
 }
 
 footer {
